@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerard Maestre Felip - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stilo.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="grain-overlay"></div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="logo-initial">G</span>
+                <span class="logo-initial">M</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <a href="#contact" class="btn-nav">Hablemos</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-grid">
+            <div class="hero-left">
+                <div class="hero-label">Portfolio 2026</div>
+                <h1 class="hero-title">Gerard<br/>Maestre<br/><span class="accent">Felip</span></h1>
+                <p class="hero-role">Software Developer & Content Creator</p>
+                <p class="hero-description">Estudiante de DAM en Barcelona. Creador de contenido con +200K impresiones mensuales.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="mailto:gerardmaestrefelip@gmail.com" class="btn btn-secondary">Contactar →</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="profile-image">
+                    <img src="fotos/1000085681.png" alt="Gerard Maestre">                </div>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <div class="stat-num">200K+</div>
+                        <div class="stat-label">Impresiones</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-num">5+</div>
+                        <div class="stat-label">Proyectos</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-num">DAM</div>
+                        <div class="stat-label">Estudiante</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- About & Experience Combined -->
+        <section id="about" class="section">
+            <div class="two-col-layout">
+                <div class="col">
+                    <div class="section-mini-header">
+                        <span class="section-number">01</span>
+                        <h2 class="section-title">Sobre mí</h2>
+                    </div>
+                    <p class="lead">Desarrollador apasionado por crear experiencias digitales que importan.</p>
+                    <p>Combino desarrollo técnico con pensamiento creativo para construir soluciones que conectan genuinamente con los usuarios.</p>
+                    
+                    <div class="expertise-list">
+                        <div class="expertise-item">
+                            <strong>Developer</strong>
+                            <span>Especializado en Java, Kotlin y tecnologías web modernas</span>
+                        </div>
+                        <div class="expertise-item">
+                            <strong>Content Creator</strong>
+                            <span>200K+ impresiones mensuales. Experto en engagement digital</span>
+                        </div>
+                        <div class="expertise-item">
+                            <strong>Project Leader</strong>
+                            <span>Liderazgo en proyectos con CaixaBank e Imagine</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col" id="experience">
+                    <div class="section-mini-header">
+                        <span class="section-number">02</span>
+                        <h2 class="section-title">Experiencia</h2>
+                    </div>
+                    
+                    <div class="timeline-compact">
+                        <div class="timeline-item-compact">
+                            <div class="timeline-header">
+                                <strong>Social Media Promoter</strong>
+                                <span class="date">Ene 2025 - Presente</span>
+                            </div>
+                            <div class="timeline-location">Barcelona</div>
+                            <ul>
+                                <li>+200K impresiones mensuales en Instagram y redes sociales</li>
+                                <li>Promoción estratégica de eventos y campañas digitales</li>
+                                <li>Gestión de comunidades y captación de público objetivo</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="timeline-item-compact">
+                            <div class="timeline-header">
+                                <strong>Project Lead</strong>
+                                <span class="date">Dic 2025</span>
+                            </div>
+                            <div class="timeline-location">Institut Tecnològic de Barcelona</div>
+                            <ul>
+                                <li>Supervisión de equipo multidisciplinar</li>
+                                <li>Presentación a CaixaBank e Imagine</li>
+                                <li>Liderazgo en feedback y mejora de diseño</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <div class="section-mini-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Proyectos Destacados</h2>
+            </div>
+            
+            <div class="projects-compact">
+                <div class="project-compact featured">
+                    <div class="project-image-compact">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <rect x="8" y="8" width="44" height="44" rx="6" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 30h20M30 20v20" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <p>Screenshot Banking App</p>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-label">Proyecto Destacado</span>
+                        <h3>Proyecto "24 Horas" - Banca del Futuro</h3>
+                        <p>Aplicación bancaria innovadora para usuarios jóvenes. Presentado a CaixaBank e Imagine.</p>
+                        <div class="tags-compact">
+                            <span>UX/UI</span>
+                            <span>Prototipo</span>
+                            <span>Liderazgo</span>
+                            <span>CaixaBank</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-compact">
+                    <div class="project-image-compact">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <rect x="8" y="8" width="44" height="44" rx="6" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="30" cy="30" r="8" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <p>Social Media</p>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-label">Social Media</span>
+                        <h3>Gestión de Redes Sociales</h3>
+                        <p>+200K impresiones mensuales. Estrategias de engagement y promoción de eventos.</p>
+                        <div class="tags-compact">
+                            <span>Instagram</span>
+                            <span>Marketing</span>
+                            <span>Content</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-compact">
+                    <div class="project-image-compact">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <path d="M15 30l10 10 20-20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <p>Próximo proyecto</p>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-label">En desarrollo</span>
+                        <h3>Próximo Proyecto</h3>
+                        <p>Espacio para tu siguiente gran proyecto. Actualiza con tus nuevos logros.</p>
+                        <div class="tags-compact">
+                            <span>Próximamente</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Education Combined -->
+        <section id="skills" class="section">
+            <div class="two-col-layout">
+                <div class="col">
+                    <div class="section-mini-header">
+                        <span class="section-number">04</span>
+                        <h2 class="section-title">Habilidades</h2>
+                    </div>
+                    
+                    <div class="skills-compact">
+                        <div class="skill-group">
+                            <h4>Desarrollo</h4>
+                            <div class="skill-items">
+                                <div class="skill-compact">
+                                    <span>Java</span>
+                                    <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+                                </div>
+                                <div class="skill-compact">
+                                    <span>Kotlin</span>
+                                    <div class="skill-bar"><div class="skill-fill" style="width: 75%"></div></div>
+                                </div>
+                                <div class="skill-compact">
+                                    <span>JavaScript</span>
+                                    <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+                                </div>
+                                <div class="skill-compact">
+                                    <span>HTML/CSS</span>
+                                    <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-group">
+                            <h4>Diseño & Marketing</h4>
+                            <div class="skill-items">
+                                <div class="skill-compact">
+                                    <span>UX/UI Design</span>
+                                    <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+                                </div>
+                                <div class="skill-compact">
+                                    <span>Social Media</span>
+                                    <div class="skill-bar"><div class="skill-fill" style="width: 95%"></div></div>
+                                </div>
+                                <div class="skill-compact">
+                                    <span>Content Creation</span>
+                                    <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-tags">
+                            <span>Liderazgo</span>
+                            <span>Trabajo en Equipo</span>
+                            <span>Comunicación</span>
+                            <span>Creatividad</span>
+                            <span>Adaptabilidad</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="section-mini-header">
+                        <span class="section-number">05</span>
+                        <h2 class="section-title">Formación</h2>
+                    </div>
+                    
+                    <div class="education-compact">
+                        <div class="education-item">
+                            <div class="edu-icon">🎓</div>
+                            <div class="edu-content">
+                                <h3>Desarrollo de Aplicaciones Multiplataforma</h3>
+                                <div class="edu-institution">Institut Tecnològic de Barcelona</div>
+                                <div class="edu-date">2025 - Actualidad</div>
+                                <div class="edu-areas">
+                                    <span>Java</span>
+                                    <span>Kotlin</span>
+                                    <span>Bases de Datos</span>
+                                    <span>Apps Multiplataforma</span>
+                                    <span>Sistemas Informáticos</span>
+                                    <span>Metodologías Ágiles</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="education-item">
+                            <div class="edu-icon">📚</div>
+                            <div class="edu-content">
+                                <h3>Bachillerato Científico-Tecnológico</h3>
+                                <div class="edu-institution">Institut Nou de Santa Coloma</div>
+                                <div class="edu-date">Graduado 2025</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section section-contact">
+            <div class="section-mini-header centered">
+                <span class="section-number">06</span>
+                <h2 class="section-title">Hablemos</h2>
+            </div>
+            
+            <p class="contact-intro">¿Tienes un proyecto en mente? Estoy siempre abierto a nuevas oportunidades y colaboraciones.</p>
+            
+            <div class="contact-grid">
+                <a href="mailto:gerardmaestrefelip@gmail.com" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <div class="contact-label">Email</div>
+                        <div class="contact-value">gerardmaestrefelip@gmail.com</div>
+                    </div>
+                </a>
+
+                <a href="tel:+34644510203" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <div class="contact-label">Teléfono</div>
+                        <div class="contact-value">+34 644 510 203</div>
+                    </div>
+                </a>
+
+                <div class="contact-card placeholder">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" fill="currentColor"/>
+                            <circle cx="4" cy="4" r="2" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <div class="contact-label">LinkedIn</div>
+                        <div class="contact-value">Tu perfil LinkedIn</div>
+                    </div>
+                </div>
+
+                <div class="contact-card placeholder">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <div class="contact-label">GitHub</div>
+                        <div class="contact-value">Tu perfil GitHub</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-initial">G</span>
+                <span class="logo-initial">M</span>
+            </div>
+            <p>&copy; 2026 Gerard Maestre Felip. Diseñado con pasión.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
